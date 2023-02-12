@@ -27,7 +27,7 @@ The system starts by showing a message "To start press '0'" on both admin's and 
 ## Users' Actions
 * Control 5 rooms Lights (on/off), and one room as dimmer (set percentage).
 * Turn on or off the AC.
-* Add or remove users.
+* Add or remove users, system checks automatically that new user's name is not registered.
 
 
 ## Simulation Start
