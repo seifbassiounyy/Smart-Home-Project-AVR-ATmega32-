@@ -4,8 +4,11 @@
 This is an embedded systems project in which a smart home is designed using ATmega32 on Proteus simulation, and can be installed on hardware. It is a common project topic. However, I found it is crucial to conduct this project that uses several hardware drivers, and requires good logic. This smart home can be controlled by two types of users; an admin, who controls the system remotely through a device that uses bluetooth as a phone, represented here using hc-06 bluetooth module, and users who control the smart home directly through the hardware components connected to the microcontroller. You can control 6 rooms lights, with one room having dimmer light, door movement (open/close), Air Conditioner (on/off).
 
 
-## Drivers Used
+## Parameters and Drivers Used
+Clock Frequency: 1MHz
+<br>
 MCAL: DIO, I2C, GIE, TIMER0, TIMER1, and UART (Baud Rate:2400)
+<br>
 HAL: LCD< KEYPAD, EEPROM.
 
 
